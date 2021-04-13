@@ -1,16 +1,14 @@
 <?php
+require_once __DIR__ . '/my_module/openweathermap.php';
 require_once __DIR__ . '/common/header.php';
-require_once __DIR__ . '/common/openweathermap.php';
-require_once __DIR__ . '/common/timezone.php';
 require_once __DIR__ . '/common/db_connect.php';
-require_once __DIR__ . '/common/redirect.php';
+require_once __DIR__ . '/common/timezone.php';
 
+# ページタイトル
 $title = '気象情報';
 
-$minutes = 60;
-
 # 自動更新間隔（10分とする）
-$reload_interval = 10 * $minutes;
+$reload_interval = 10 * 60;
 
 # getWeather関数（表示形式は現在，都市IDは北見市）
 $response = getWeather('weather', 2129537);
