@@ -13,9 +13,8 @@ my_module/weather_table_creator.php (Table creator for MySQL)
 
 common/db_connect.php  
 common/header.php  
-common/openweathermap.php  
+my_module/openweathermap.php  
 common/phpQuery-onefile.php (DOM Control Library: [Download](https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/phpquery/phpQuery-0.9.5.386-onefile.zip))  
-common/redirect.php  
 common/scraping.php  
 common/sql_runner.php  
 common/timezone.php
