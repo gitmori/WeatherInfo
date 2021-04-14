@@ -16,6 +16,7 @@ common/db_connect.php
 common/timezone.php  
 my_module/openweathermap.php  
 my_module/weather_table_creator.php
+css/weather_info_css.php
 
 **.gitignore**
 
