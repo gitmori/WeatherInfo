@@ -120,7 +120,8 @@ function db_info() {
 <?php
 # OpenWeatherMapのAPI Keyを返す関数
 function opn_wm_api_key() {
-    return 'API Key';
+    $api_key = 'API Key';
+    return $api_key;
 }
 ```
 
