@@ -102,7 +102,7 @@ flush privileges;
 **Check the location of "DocumentRoot".**
 
 ```bash
-git clone https://github.com/gitmori/WeatherInfo /Library/WebServer/Documents/WeatherInfo
+sudo git clone https://github.com/gitmori/WeatherInfo /Library/WebServer/Documents/WeatherInfo
 sudo mkdir /Library/WebServer/Documents/WeatherInfo/config
 sudo touch /Library/WebServer/Documents/WeatherInfo/config/{db_info.php,opn_wm_api_key.php}
 ```
