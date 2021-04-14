@@ -11,13 +11,11 @@ my_module/weather_table_creator.php (Table creator for MySQL)
 
 **Self-Made Modules**
 
-common/db_connect.php  
 common/header.php  
+common/db_connect.php  
+common/timezone.php  
 my_module/openweathermap.php  
-common/phpQuery-onefile.php (DOM Control Library: [Download](https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/phpquery/phpQuery-0.9.5.386-onefile.zip))  
-common/scraping.php  
-common/sql_runner.php  
-common/timezone.php
+my_module/weather_table_creator.php
 
 **.gitignore**
 
@@ -31,7 +29,15 @@ config/opn_wm_api_key.php
 
 ***DEMO:***
 
-![weather_info.php DEMO Pict](/pict/weather_info.png)
+From 05:00 to 16:59 (JST)
+
+![DEMO Pict 1](/pict/05001659JST.png)
+
+
+From 17:00 to 28:59 (JST)
+
+![DEMO Pict 2](/pict/17002859JST.png)
+
 
 ## Features
 
